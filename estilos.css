@@ -59,10 +59,28 @@ header a {
 }
 
 nav ul {
+  display: flex;
+  padding-left: 0;
+  list-style-type: none;
+  justify-content: space-around;
   margin-bottom: 0;
 }
 
+nav ul li {
+  display: inline-block;
+  padding-top: 3px;
+  padding-bottom: 3px;
 
+  margin: 0 10px;
+
+  position: relative;
+}
+
+nav ul li:hover {
+  right: 1px;
+  bottom: 1px;
+  text-decoration: underline;
+}
 
 /* --- Conteúdo principal da página --- */
 #conteudo-principal {
