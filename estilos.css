@@ -149,6 +149,17 @@ nav ul li:hover {
   display: inline-block;
 }
 
+.novidade::before {
+  content: "Novidade!";
+  color: palegoldenrod;
+  font-weight: bold;
+  display: inline-block;
+  background: darkcyan; /* ... */
+  border-radius: 5px;
+  border: 2px solid darkgreen;
+  padding: 3px;
+}
+
 
 
 
