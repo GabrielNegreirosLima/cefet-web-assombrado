@@ -4,9 +4,9 @@
 // e também (b) procure pela palavra 'click' neste arquivo e a substitua
 // por 'mouseenter'. Veja no que dá!
 //
-const DISTANCIA_PERCORRIDA_MAXIMA = 80; // em px
-const TEMPO_PARA_MUDAR_DE_LADO = 250;   // em ms (milissegundos)
-const DURACAO_DO_MOVIMENTO = 500;       // idem
+const DISTANCIA_PERCORRIDA_MAXIMA = 100; // em px
+const TEMPO_PARA_MUDAR_DE_LADO = 350;   // em ms (milissegundos)
+const DURACAO_DO_MOVIMENTO = 600;       // idem
 
 // pega todo mundo que tem class="boo" na página
 let boos = document.querySelectorAll('.boo');
