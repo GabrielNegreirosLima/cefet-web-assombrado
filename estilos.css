@@ -190,6 +190,8 @@ nav ul li:hover {
   box-sizing: border-box;
   margin-right: 15px;
   text-align: center;
+  position: sticky;
+  top: 5px;
 }
 
 .tag-1:active, .tag-2:active, .tag-3:active {
