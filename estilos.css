@@ -70,9 +70,7 @@ nav ul li {
   display: inline-block;
   padding-top: 3px;
   padding-bottom: 3px;
-
   margin: 0 10px;
-
   position: relative;
 }
 
@@ -169,6 +167,12 @@ nav ul li:hover {
   text-align: center;
 }
 
+.tag-1:active, .tag-2:active, .tag-3:active {
+  position: relative;
+  bottom: 2px;
+  right: 2px;
+}
+
 #tags h1 {
   margin-bottom: 1em;
   text-shadow: 2px 2px #000;
@@ -193,9 +197,6 @@ nav ul li:hover {
 .tag-3 {
   font-size: 150%;
 }
-
-
-
 
 
 /* --- Rodapé --- */
